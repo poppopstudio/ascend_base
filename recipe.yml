@@ -4,9 +4,8 @@ type: 'Site'
 recipes:
   - poppop_base
 install:
-  - cshs
   - auto_username
-  - content_lock
+  #- content_lock
   - cshs
   - entity
   - entity_admin_handlers
@@ -30,3 +29,9 @@ config:
         page.front: /home
         name: 'Ascend'
         mail: 'tech@poppop.studio'
+    field_ui.settings:
+      simpleConfigUpdate:
+        field_prefix: ascend_
+    filefield_paths.settings:
+      simpleConfigUpdate:
+        temp_location: 'temporary://filefield_paths'
