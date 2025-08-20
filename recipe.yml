@@ -26,7 +26,7 @@ config:
   actions:
     system.site:
       simpleConfigUpdate:
-        page.front: /home
+        page.front: /node/1
         name: 'Ascend'
         mail: 'tech@poppop.studio'
     field_ui.settings:
