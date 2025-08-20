@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.field.user.user.ascend_u_name_first
     - field.field.user.user.ascend_u_name_second
-    - field.field.user.user.user_picture
   module:
     - user
 id: user.user.default
