@@ -1,0 +1,22 @@
+{
+    "name": "poppopstudio/ascend_base",
+    "description": "Ascend project base installer",
+    "type": "drupal-recipe",
+    "authors": [
+        {
+            "name": "NikLP",
+            "homepage": "https://poppop.studio",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:poppopstudio/poppop_base.git"
+        }
+    ],
+    "require": {
+        "drupal/core": "^10.5",
+        "poppopstudio/poppop_base": "dev-main"
+    }
+}

@@ -1,0 +1,11 @@
+name: 'PopPop base install'
+description: 'Provides a base PopPop site.'
+type: 'Site'
+recipes:
+  - poppop_base
+install:
+  - cshs
+config:
+  strict: true
+  import:
+    cshs: '*'
