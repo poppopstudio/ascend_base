@@ -17,6 +17,7 @@
     ],
     "require": {
         "drupal/core": "^10.5",
+        "drupal/cshs": "^4.0",
         "poppopstudio/poppop_base": "dev-main"
     }
 }
