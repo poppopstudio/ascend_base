@@ -9,6 +9,7 @@
             "role": "Maintainer"
         }
     ],
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
