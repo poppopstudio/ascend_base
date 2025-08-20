@@ -5,7 +5,28 @@ recipes:
   - poppop_base
 install:
   - cshs
+  - auto_username
+  - content_lock
+  - cshs
+  - entity
+  - entity_admin_handlers
+  - epp
+  - field_group
+  - field_group_table
+  - filefield_paths
+  - pathauto
+  - readonly_field_widget
+  - redirect
+  - role_delegation
+  - simple_taxonomy_menu
+  - views_add_button
 config:
   strict: true
   import:
     cshs: '*'
+  actions:
+    system.site:
+      simpleConfigUpdate:
+        page.front: /home
+        name: 'Ascend'
+        mail: 'tech@poppop.studio'
