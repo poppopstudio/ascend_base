@@ -9,13 +9,6 @@
             "role": "Maintainer"
         }
     ],
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:poppopstudio/poppop_base.git"
-        }
-    ],
     "require": {
         "drupal/core": "^10.5",
         "drupal/auto_username": "^2.0",
