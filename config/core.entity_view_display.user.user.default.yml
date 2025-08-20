@@ -13,7 +13,7 @@ mode: default
 content:
   ascend_u_name_first:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -21,7 +21,7 @@ content:
     region: content
   ascend_u_name_second:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
