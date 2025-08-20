@@ -1,5 +1,5 @@
-name: 'PopPop base install'
-description: 'Provides a base PopPop site.'
+name: 'Ascend base install'
+description: 'Ascend project base installer'
 type: 'Site'
 recipes:
   - poppop_base
