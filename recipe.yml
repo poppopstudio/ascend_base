@@ -35,3 +35,5 @@ config:
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
+    user.role.editor:
+      grantPermission: 'assign user_manager role'
