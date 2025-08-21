@@ -4,6 +4,7 @@ type: 'Site'
 recipes:
   - poppop_base
 install:
+  - antibot
   - auto_username
   #- content_lock
   - cshs
@@ -22,6 +23,7 @@ install:
 config:
   strict: true
   import:
+    antibot: '*'
     cshs: '*'
   actions:
     system.site:
@@ -35,5 +37,6 @@ config:
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
+    # Can't assign to self using config.
     user.role.user_manager:
       grantPermission: 'assign user_manager role'
