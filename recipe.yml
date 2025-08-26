@@ -19,6 +19,7 @@ install:
   - redirect
   - role_delegation
   - simple_taxonomy_menu
+  - token
   - views_add_button
 config:
   strict: true
