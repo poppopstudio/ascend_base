@@ -32,9 +32,6 @@ config:
         page.front: /node/1
         name: 'Ascend'
         mail: 'tech@poppop.studio'
-    field_ui.settings:
-      simpleConfigUpdate:
-        field_prefix: ascend_
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
