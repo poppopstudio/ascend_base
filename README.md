@@ -4,7 +4,6 @@ Ascend project base site install recipe.
 
 - Currently using Drupal 10
 
-
 From <https://github.com/poppopstudio/ascend>
 in a normal ddev
 git clone <git@github.com>:poppopstudio/ascend.git
