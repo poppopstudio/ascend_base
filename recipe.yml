@@ -28,6 +28,7 @@ config:
   import:
     antibot: '*'
     cshs: '*'
+    views: '*'
   actions:
     system.site:
       simpleConfigUpdate:
