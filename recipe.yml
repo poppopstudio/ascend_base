@@ -8,6 +8,7 @@ install:
   - auto_username
   #- content_lock
   - cshs
+  - diff
   - entity
   - entity_admin_handlers
   - epp
