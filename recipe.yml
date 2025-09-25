@@ -40,5 +40,3 @@ config:
     # Can't assign to self using config.
     user.role.user_manager:
       grantPermission: 'assign user_manager role'
-    user.role.authenticated:
-      grantPermission: 'use text format basic_html'
