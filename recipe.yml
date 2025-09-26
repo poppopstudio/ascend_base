@@ -34,6 +34,10 @@ config:
         page.front: /node/1
         name: 'Ascend'
         mail: 'tech@poppop.studio'
+    gin.settings:
+      simpleConfigUpdate:
+        # Ideally not, but...
+        secondary_toolbar_frontend: true
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
