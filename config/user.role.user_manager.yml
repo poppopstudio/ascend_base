@@ -2,7 +2,6 @@ langcode: en-gb
 status: true
 dependencies:
   module:
-    - environment_indicator
     - role_delegation
     - system
     - toolbar
@@ -12,8 +11,8 @@ weight: 4
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access environment indicator'
   - 'access toolbar'
   - 'administer users'
   - 'assign content_editor role'
   - 'view the administration theme'
+  - 'assign site_manager role'
