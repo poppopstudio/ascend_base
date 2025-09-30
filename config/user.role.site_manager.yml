@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 id: site_manager
 label: 'Site manager'
-weight: 8
+weight: 5
 is_admin: null
 permissions: {  }
