@@ -6,4 +6,11 @@ id: site_manager
 label: 'Site manager'
 weight: 5
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access environment indicator'
+  - 'access taxonomy overview'
+  - 'create terms in category'
+  - 'edit terms in category'
+  - 'delete all taxonomy revisions'
+  - 'revert all taxonomy revisions'
+  - 'view all taxonomy revisions'

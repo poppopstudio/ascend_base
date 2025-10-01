@@ -46,3 +46,8 @@ config:
       grantPermission: 'assign user_manager role'
     user.role.authenticated:
       grantPermission: 'access toolbar'
+    user.role.content_editor:
+      grantPermissions:
+        - 'edit any page content'
+        - 'view page revisions'
+        - 'revert page revisions'
