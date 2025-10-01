@@ -14,3 +14,4 @@ permissions:
   - 'delete all taxonomy revisions'
   - 'revert all taxonomy revisions'
   - 'view all taxonomy revisions'
+  - 'view vocabulary labels'
