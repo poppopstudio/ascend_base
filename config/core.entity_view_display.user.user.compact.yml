@@ -3,32 +3,16 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
-    - field.field.user.user.ascend_u_name_first
-    - field.field.user.user.ascend_u_name_second
   module:
     - user
 id: user.user.compact
 targetEntityType: user
 bundle: user
 mode: compact
-content:
-  ascend_u_name_first:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  ascend_u_name_second:
-    type: string
-    label: inline
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
+content: {  }
 hidden:
+  ascend_u_name_first: true
+  ascend_u_name_second: true
   masquerade: true
   member_for: true
   user_picture: true
