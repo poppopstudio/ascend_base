@@ -11,8 +11,8 @@
     ],
     "require": {
         "drupal/core": "^10.5",
-        "drupal/antibot": "^2.0",
         "drupal/auto_username": "^2.0",
+        "drupal/backup_migrate": "^5.1",
         "drupal/configurable_views_filter_block": "^1.0",
         "drupal/content_lock": "^3.0",
         "drupal/cshs": "^4.0",

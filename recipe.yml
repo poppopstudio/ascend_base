@@ -4,9 +4,8 @@ type: 'Site'
 recipes:
   - poppop_base
 install:
-  - antibot
   - auto_username
-  #- content_lock
+  - content_lock
   - cshs
   - diff
   - entity
@@ -26,7 +25,6 @@ install:
 config:
   strict: true
   import:
-    antibot: '*'
     cshs: '*'
   actions:
     system.site:
