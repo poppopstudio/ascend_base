@@ -1,5 +1,42 @@
 verbose: true
-types: {  }
+types:
+  file: {  }
+  media: {  }
+  menu_link_content: {  }
+  node: {  }
+  path_alias: {  }
+  redirect: {  }
+  search_api_task: {  }
+  taxonomy_term:
+    '*': '*'
+  user: {  }
 types_translation_lock: {  }
-form_op_lock: {  }
+form_op_lock:
+  file:
+    mode: 0
+    values: {  }
+  media:
+    mode: 0
+    values: {  }
+  menu_link_content:
+    mode: 0
+    values: {  }
+  node:
+    mode: 0
+    values: {  }
+  path_alias:
+    mode: 0
+    values: {  }
+  redirect:
+    mode: 0
+    values: {  }
+  search_api_task:
+    mode: null
+    values: {  }
+  taxonomy_term:
+    mode: 0
+    values: {  }
+  user:
+    mode: 0
+    values: {  }
 timeout: 1800
