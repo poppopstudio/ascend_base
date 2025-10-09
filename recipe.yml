@@ -5,6 +5,7 @@ recipes:
   - poppop_base
 install:
   - auto_username
+  - autologout
   - content_lock
   - cshs
   - diff
@@ -17,6 +18,7 @@ install:
   - form_mode_manager
   - filefield_paths
   - pathauto
+  - password_policy
   - readonly_field_widget
   - redirect
   - role_delegation
