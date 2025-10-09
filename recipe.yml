@@ -19,6 +19,9 @@ install:
   - filefield_paths
   - pathauto
   - password_policy
+  - password_policy_history
+  - password_policy_length
+  - password_policy_username
   - readonly_field_widget
   - redirect
   - role_delegation
