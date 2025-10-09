@@ -34,4 +34,3 @@ content:
     region: content
 hidden:
   member_for: true
-  user_picture: true
