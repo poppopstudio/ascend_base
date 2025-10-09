@@ -3,7 +3,8 @@ types:
   file: {  }
   media: {  }
   menu_link_content: {  }
-  node: {  }
+  node:
+    '*': '*'
   path_alias: {  }
   redirect: {  }
   search_api_task: {  }
