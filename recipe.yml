@@ -4,6 +4,7 @@ type: 'Site'
 recipes:
   - poppop_base
 install:
+  - antibot
   - auto_username
   - autologout
   - content_lock
@@ -31,6 +32,7 @@ install:
 config:
   strict: true
   import:
+    antibot: '*'
     cshs: '*'
   actions:
     system.site:
