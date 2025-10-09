@@ -11,6 +11,7 @@ install:
   - entity
   - entity_admin_handlers
   - epp
+  - extra_field
   - field_group
   - field_group_table
   - form_mode_manager
