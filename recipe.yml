@@ -47,6 +47,30 @@ config:
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
+    # Heavy sigh... This config was already in the installwe but password policy
+    # nixes it, so I've manually added back fields that its installer borks.
+    core.entity_form_display.user.user.default:
+      setComponents:
+        -
+          name: ascend_u_name_first
+          options:
+            type: string_textfield
+            weight: -30
+            region: content
+            settings:
+              size: 60
+              placeholder: ''
+            third_party_settings: {  }
+        -
+          name: ascend_u_name_second
+          options:
+            type: string_textfield
+            weight: -20
+            region: content
+            settings:
+              size: 60
+              placeholder: ''
+            third_party_settings: {  }
     # Can't assign to self using config.
     user.role.user_manager:
       grantPermission: 'assign user_manager role'
