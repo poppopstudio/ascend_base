@@ -19,6 +19,9 @@ install:
   - form_mode_manager
   - filefield_paths
   - password_policy
+  - password_policy_history
+  - password_policy_length
+  - password_policy_username
   - pathauto
   - readonly_field_widget
   - redirect
