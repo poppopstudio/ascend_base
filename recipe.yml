@@ -29,6 +29,7 @@ install:
   - simple_taxonomy_menu
   - token
   - views_add_button
+  - views_bulk_operations
 config:
   strict: true
   import:
