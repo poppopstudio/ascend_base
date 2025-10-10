@@ -18,6 +18,7 @@ install:
   - field_group_table
   - form_mode_manager
   - filefield_paths
+  - password_policy
   - pathauto
   - readonly_field_widget
   - redirect
