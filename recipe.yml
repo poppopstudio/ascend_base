@@ -10,6 +10,7 @@ install:
   - content_lock
   - cshs
   - diff
+  - easy_breadcrumb
   - entity
   - entity_admin_handlers
   - epp
