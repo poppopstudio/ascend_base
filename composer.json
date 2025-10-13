@@ -29,6 +29,7 @@
         "drupal/filefield_paths": "^1.0@beta",
         "drupal/form_mode_manager": "^3.1",
         "drupal/inline_entity_form": "^3.0@RC",
+        "drupal/menu_block": "^1.14",
         "drupal/password_policy": "^4.0",
         "drupal/pathauto": "^1.13",
         "drupal/readonly_field_widget": "^2.1",
