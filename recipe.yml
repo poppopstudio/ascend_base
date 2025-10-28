@@ -42,6 +42,12 @@ config:
         page.front: /node/1
         name: 'Ascend'
         mail: 'tech@poppop.studio'
+    # Add footer menu to basic page options
+    node.type.page:
+      simpleConfigUpdate:
+        third_party_settings.menu_ui.available_menus:
+          - main
+          - footer
     gin.settings:
       simpleConfigUpdate:
         # Ideally not, but...
@@ -49,7 +55,7 @@ config:
     filefield_paths.settings:
       simpleConfigUpdate:
         temp_location: 'temporary://filefield_paths'
-    # Heavy sigh... This config was already in the installwe but password policy
+    # Heavy sigh... This config was already in the installer but password policy
     # nixes it, so I've manually added back fields that its installer borks.
     core.entity_form_display.user.user.default:
       setComponents:
