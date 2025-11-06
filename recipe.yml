@@ -4,6 +4,7 @@ type: 'Site'
 recipes:
   - poppop_base
 install:
+  - ascend_helper
   - antibot
   - auto_username
   - autologout
