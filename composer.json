@@ -39,6 +39,7 @@
         "drupal/token": "^1.15",
         "drupal/views_add_button": "^2.0",
         "drupal/views_bulk_operations": "^4.4",
-        "poppopstudio/poppop_base": "dev-main"
+        "poppopstudio/poppop_base": "dev-main",
+        "poppopstudio/ascend_helper": "^1.0"
     }
 }
